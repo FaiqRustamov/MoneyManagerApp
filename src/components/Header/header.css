@@ -1,0 +1,16 @@
+.header{
+    background:linear-gradient(to bottom,rgb(231, 0, 0),rgb(255, 172, 172));
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 23px;
+    letter-spacing: 1px;
+    position: sticky;
+    top: 0;
+}
+.header span{
+    margin: 0 10px;
+    font-weight: bold;
+}

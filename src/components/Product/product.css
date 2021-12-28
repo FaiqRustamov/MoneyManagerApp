@@ -1,0 +1,68 @@
+.product{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    width: 24%;
+    
+}
+
+.product img{
+    width: 100%;
+    height: 250px;
+}
+.product h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.product .price{
+    font-size: 20px;
+    color: rgb(226, 10, 10);
+    font-weight: bold;
+}
+
+.product .actions{
+display: flex;
+align-items: center;
+margin-top: 15px;
+}
+
+.actions button{
+    height: 40px;
+    padding: 0 15px;
+    flex: 1;
+    cursor: pointer;
+}
+.actions button[disabled]{
+    opacity: .3;
+    cursor: not-allowed;
+}
+.actions .buy-btn{
+    background-color: rgb(6, 179, 6);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0 4px 4px 0;
+
+}
+.actions  .giveback-btn{
+    background: rgb(119, 5, 5);
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 4px 0 0 4px;
+
+}
+.actions .amount{
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ddd;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    color:#555;
+
+}

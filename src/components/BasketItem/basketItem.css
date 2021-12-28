@@ -1,0 +1,9 @@
+.basket-item{
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: red;
+}
+
+.basket-item span{
+    color: #999;
+}
